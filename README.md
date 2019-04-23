@@ -14,7 +14,7 @@ you so choose.
  
 If you are updating from a version prior to 4.3.0, it will attempt to manually delete the
 compiled.php located in /bootstrap/cache/ under your Invoice Ninja directory. If the file is
-not there, it will move on (needed for updating from versions < 4.3.0).
+not there, it will move on.
  
 Please note that this DOES NOT backup the MySQL database. If you would like to backup the
 database, consider running mysqldump on a similar schedule.
