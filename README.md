@@ -1,6 +1,3 @@
-# Ninja_Update
-Update script for Invoice Ninja (self-hosted)
-
 Invoice Ninja Self-Hosted Update v4.7.1
 ==
  
