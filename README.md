@@ -1,10 +1,11 @@
 # Ninja_Update
 Update script for Invoice Ninja (self-hosted)
 
-Invoice Ninja Self-Hosted Update v4.7.1 |
-----------------------------------------+
+Invoice Ninja Self-Hosted Update v4.7.1
+==
  
 USE AT YOUR OWN RISK
+--
  
 This script will automatically update your Invoice Ninja install to the latest version.
 It does this by checking https://invoiceninja.org for the latest version string, and then
@@ -14,9 +15,9 @@ want to check for an update, or you can place it in a crontab to have it run on 
 schedule. The important commands all output to stdout, so you can direct to a logfile if
 you so choose.
  
-With the recent changes in 4.3.0, it will attempt to manually delete the compiled.php
-located in /bootstrap/cache/ under your Invoice Ninja directory. If the file is not there,
-it will move on (needed for updating from versions < 4.3.0).
+If you are updating from a version prior to 4.3.0, it will attempt to manually delete the
+compiled.php located in /bootstrap/cache/ under your Invoice Ninja directory. If the file is
+not there, it will move on (needed for updating from versions < 4.3.0).
  
 Please note that this DOES NOT backup the MySQL database. If you would like to backup the
 database, consider running mysqldump on a similar schedule.
@@ -35,8 +36,8 @@ This script makes a couple assumptions in order to be completely hands-off.
    along with the extracted files that will be synced to your Invoice Ninja install
    location.
  
-CAVEATS |
---------+
+CAVEATS
+--
  
 While the script will detect whether or not you are using UPDATE_SECRET in your .env file,
 running the update migration commands may not work if UPDATE_SECRET is present, and will
