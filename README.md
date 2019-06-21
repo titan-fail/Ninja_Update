@@ -1,4 +1,4 @@
-Invoice Ninja Self-Hosted Update v4.7.1
+Invoice Ninja Self-Hosted Update v4.7.2
 ==
  
 USE AT YOUR OWN RISK
