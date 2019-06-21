@@ -14,7 +14,7 @@ ninja_storage="$ninja_home/storage"
 #--------------------------------------------------------
 versiontxt="$ninja_storage/version.txt"
 ninja_installed="$(cat "$versiontxt")"
-ninja_current="$((wget -T 15 -qO- https://invoiceninja.org/index.php) | (grep -oP 'Download Version \K[0-9]+\.[0-9]+(\.[0-9]+)'))"
+ninja_current="$((wget -T 15 -qO- https://www.invoiceninja.org/index.php) | (grep -oP 'Download Version \K[0-9]+\.[0-9]+(\.[0-9]+)'))"
  
  
 #SEE IF AN UPDATE IS REQUIRED
